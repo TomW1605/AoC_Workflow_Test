@@ -26,7 +26,7 @@ with open(os.path.join(folder, "Day "+str(dayNum), "input.txt"), "w") as inputFi
     inputFile.write(response.text)
 
 with open(os.path.join(folder, "Day "+str(dayNum), "Day"+str(dayNum)+"Part1."+config['general']['extension']), 'w') as part1File:
-    part1File.write(config['general']['prefill'])
+    part1File.write(config['general']['prefill']+'\n')
 
 with open(os.path.join(folder, "Day "+str(dayNum), "Day"+str(dayNum)+"Part2."+config['general']['extension']), 'w') as part2File:
-    part2File.write(config['general']['prefill'])
+    part2File.write(config['general']['prefill']+'\n')
