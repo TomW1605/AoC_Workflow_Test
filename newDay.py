@@ -1,5 +1,6 @@
 import configparser
 import os
+import shutil
 
 import requests as requests
 
@@ -25,8 +26,7 @@ response = requests.get("https://adventofcode.com/"+config['general']['year']+"/
 with open(os.path.join(folder, "Day "+str(dayNum), "input.txt"), "w") as inputFile:
     inputFile.write(response.text)
 
-with open(os.path.join(folder, "Day "+str(dayNum), "Day"+str(dayNum)+"Part1."+config['general']['extension']), 'w') as part1File:
-    part1File.write(config['general']['prefill']+'\n')
+with open(os.path.join(folder, "Day "+str(dayNum), "testInput.txt"), "w") as testInputFile:
+    testInputFile.write("")
 
-with open(os.path.join(folder, "Day "+str(dayNum), "Day"+str(dayNum)+"Part2."+config['general']['extension']), 'w') as part2File:
-    part2File.write(config['general']['prefill']+'\n')
+shutil.copyfile(os.path.join(folder, "template."+config['general']['extension']), os.path.join(folder, "Day "+str(dayNum), "Day"+str(dayNum)+"."+config['general']['extension']))
