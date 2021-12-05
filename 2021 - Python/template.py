@@ -8,9 +8,15 @@ def part2(input_lines):
 
 if __name__ == '__main__':
     test = 1
+    part = 2
+
     if test:
         inputLines = readFile("testInput.txt")
     else:
         inputLines = readFile("input.txt")
-    part1(inputLines)
-    #part2(inputLines)
+
+    if part == 1:
+        part1(inputLines)
+    elif part == 2:
+        part2(inputLines)
+
