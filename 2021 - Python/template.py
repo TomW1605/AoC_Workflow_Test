@@ -8,7 +8,7 @@ def part2(input_lines):
 
 if __name__ == '__main__':
     test = 1
-    part = 2
+    part = 1
 
     if test:
         inputLines = readFile("testInput.txt")
