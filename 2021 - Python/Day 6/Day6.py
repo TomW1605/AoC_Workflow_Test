@@ -1,18 +1,27 @@
 from collections import Counter
+from tqdm import tqdm
 
-from readFile import readFile
+#from readFile import readFile
+
+def readFile(file):
+    output = []
+    f = open(file, "r")
+    for x in f:
+        output.append(x.strip())
+    return output
 
 def part1(input_lines, days):
     #print(input_lines)
     fish = [int(item) for item in input_lines[0].split(",")]
-    for day in range(0, days):
-        for ii in range(0, len(fish)):
+    for day in tqdm(range(days), unit="day"):
+        for ii in tqdm(range(len(fish)), leave=False, unit="fish", unit_scale=True):
             if fish[ii] == 0:
                 fish[ii] = 6
                 fish.append(8)
             else:
                 fish[ii] -= 1
-        print("After", day, "days:", len(fish), "fish")# -", fish)
+        #print("\r")
+        #print("After", day, "days:", len(fish), "fish")# -", fish)
     print("After", days, "days:", len(fish), "fish")# -", fish)
 
 def part2(input_lines, days):
@@ -39,7 +48,7 @@ def part2(input_lines, days):
 
 if __name__ == '__main__':
     test = 0
-    part = 2
+    part = 1
     days = 256
 
     if test:
