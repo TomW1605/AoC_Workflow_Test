@@ -20,13 +20,16 @@ if dayNum > 25:
     print("There are only 25 challenges in "+config['general']['year']+". Make sure the year is right in config.ini")
     exit(1)
 
-os.mkdir(os.path.join(folder, "Day "+str(dayNum)))
-
 response = requests.get("https://adventofcode.com/"+config['general']['year']+"/day/"+str(dayNum)+"/input", cookies={"session": config['general']['sessionID']})
-with open(os.path.join(folder, "Day "+str(dayNum), "input.txt"), "w") as inputFile:
-    inputFile.write(response.text)
+if "unlocks" not in response.text:
+    os.mkdir(os.path.join(folder, "Day " + str(dayNum)))
 
-with open(os.path.join(folder, "Day "+str(dayNum), "testInput.txt"), "w") as testInputFile:
-    testInputFile.write("")
+    with open(os.path.join(folder, "Day "+str(dayNum), "input.txt"), "w") as inputFile:
+        inputFile.write(response.text)
 
-shutil.copyfile(os.path.join(folder, "template."+config['general']['extension']), os.path.join(folder, "Day "+str(dayNum), "Day"+str(dayNum)+"."+config['general']['extension']))
+    with open(os.path.join(folder, "Day "+str(dayNum), "testInput.txt"), "w") as testInputFile:
+        testInputFile.write("")
+
+    shutil.copyfile(os.path.join(folder, "template."+config['general']['extension']), os.path.join(folder, "Day "+str(dayNum), "Day"+str(dayNum)+"."+config['general']['extension']))
+else:
+    print("please wait until the challenge has unlocked")
