@@ -1,6 +1,5 @@
 name: Update AoC Stars
-on:
-  workflow_dispatch:
+on: workflow_dispatch
   #workflow_run:
   #  workflows: [ "Update AoC Badges" ]
   #  types:
