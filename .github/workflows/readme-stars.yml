@@ -18,6 +18,8 @@ jobs:
           userId: 1200593
           leaderboardId: 965021
           sessionCookie: ${{ secrets.AOC_SESSION }}
+          showTime: True
+          localTimezone: Australia/Perth
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update AoC Stars
