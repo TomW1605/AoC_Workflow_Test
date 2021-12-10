@@ -1,12 +1,12 @@
 name: Update AoC Stars
 on:
-  workflow_dispatch:
-  workflow_run:
-    workflows: [ "Update AoC Badges" ]
-    types:
-      - completed
+  #workflow_run:
+  #  workflows: [ "Update AoC Badges" ]
+  #  types:
+  #    - completed
   #schedule:
   #  - cron: '26 14 1-25 12 *'  # Every 4 hours
+  workflow_dispatch:
 
 jobs:
   update-readme:
