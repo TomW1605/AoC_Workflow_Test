@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: TomW1605/advent-readme-stars@reverse_days
+      - uses: TomW1605/advent-readme-stars@show_past_years
         with:
           userId: 1200593
           #leaderboardId: 965021
