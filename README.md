@@ -16,4 +16,16 @@
 | [Day 3](https://adventofcode.com/2021/day/3) | ⭐<br>0:32:19 | ⭐<br>1:05:52 |
 | [Day 2](https://adventofcode.com/2021/day/2) | ⭐<br>2:24:05 | ⭐<br>2:27:12 |
 | [Day 1](https://adventofcode.com/2021/day/1) | ⭐<br>6:56:47 | ⭐<br>7:15:45 |
+
+## 2020 Results
+
+| Day | Part 1 | Part 2 |
+| :---: | :---: | :---: |
+| [Day 8](https://adventofcode.com/2020/day/8) | ⭐<br>368 days, 6:39:17 | ⭐<br>368 days, 7:01:31 |
+| [Day 6](https://adventofcode.com/2020/day/6) | ⭐<br>10 days, 1:01:47 | ⭐<br>10 days, 1:08:49 |
+| [Day 5](https://adventofcode.com/2020/day/5) | ⭐<br>10 days, 23:40:50 | ⭐<br>11 days, 0:52:56 |
+| [Day 4](https://adventofcode.com/2020/day/4) | ⭐<br>7 days, 5:39:40 | ⭐<br>7 days, 8:19:27 |
+| [Day 3](https://adventofcode.com/2020/day/3) | ⭐<br>8 days, 0:09:54 | ⭐<br>8 days, 0:27:12 |
+| [Day 2](https://adventofcode.com/2020/day/2) | ⭐<br>8 days, 23:52:02 | ⭐<br>8 days, 23:57:54 |
+| [Day 1](https://adventofcode.com/2020/day/1) | ⭐<br>5 days, 2:17:22 | ⭐<br>5 days, 2:25:48 |
 <!--- advent_readme_stars table --->
