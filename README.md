@@ -15,4 +15,5 @@
 | [Day 8](https://adventofcode.com/2021/day/8) | ⭐<br>-1 day, 17:20:16 | ⭐<br>1:59:33 |
 | [Day 9](https://adventofcode.com/2021/day/9) | ⭐<br>-1 day, 16:29:44 | ⭐<br>-1 day, 17:27:01 |
 | [Day 10](https://adventofcode.com/2021/day/10) | ⭐<br>-1 day, 16:17:56 | ⭐<br>-1 day, 17:01:25 |
+| [Day 11](https://adventofcode.com/2021/day/11) | ⭐<br>-1 day, 18:28:22 |   |
 <!--- advent_readme_stars table --->
