@@ -5,15 +5,15 @@
 
 | Day | Part 1 | Part 2 |
 | :---: | :---: | :---: |
-| [Day 1](https://adventofcode.com/2021/day/1) | ⭐<br>6:56:47 | ⭐<br>7:15:45 |
-| [Day 2](https://adventofcode.com/2021/day/2) | ⭐<br>2:24:05 | ⭐<br>2:27:12 |
-| [Day 3](https://adventofcode.com/2021/day/3) | ⭐<br>0:32:19 | ⭐<br>1:05:52 |
-| [Day 4](https://adventofcode.com/2021/day/4) | ⭐<br>1 day, 1:36:47 | ⭐<br>1 day, 1:54:04 |
-| [Day 5](https://adventofcode.com/2021/day/5) | ⭐<br>3:22:36 | ⭐<br>3:32:43 |
-| [Day 6](https://adventofcode.com/2021/day/6) | ⭐<br>1:04:50 | ⭐<br>1:22:11 |
-| [Day 7](https://adventofcode.com/2021/day/7) | ⭐<br>0:25:17 | ⭐<br>0:29:57 |
-| [Day 8](https://adventofcode.com/2021/day/8) | ⭐<br>1:20:16 | ⭐<br>9:59:33 |
-| [Day 9](https://adventofcode.com/2021/day/9) | ⭐<br>0:29:44 | ⭐<br>1:27:01 |
-| [Day 10](https://adventofcode.com/2021/day/10) | ⭐<br>0:17:56 | ⭐<br>1:01:25 |
 | [Day 11](https://adventofcode.com/2021/day/11) | ⭐<br>2:28:22 | ⭐<br>2:33:51 |
+| [Day 10](https://adventofcode.com/2021/day/10) | ⭐<br>0:17:56 | ⭐<br>1:01:25 |
+| [Day 9](https://adventofcode.com/2021/day/9) | ⭐<br>0:29:44 | ⭐<br>1:27:01 |
+| [Day 8](https://adventofcode.com/2021/day/8) | ⭐<br>1:20:16 | ⭐<br>9:59:33 |
+| [Day 7](https://adventofcode.com/2021/day/7) | ⭐<br>0:25:17 | ⭐<br>0:29:57 |
+| [Day 6](https://adventofcode.com/2021/day/6) | ⭐<br>1:04:50 | ⭐<br>1:22:11 |
+| [Day 5](https://adventofcode.com/2021/day/5) | ⭐<br>3:22:36 | ⭐<br>3:32:43 |
+| [Day 4](https://adventofcode.com/2021/day/4) | ⭐<br>1 day, 1:36:47 | ⭐<br>1 day, 1:54:04 |
+| [Day 3](https://adventofcode.com/2021/day/3) | ⭐<br>0:32:19 | ⭐<br>1:05:52 |
+| [Day 2](https://adventofcode.com/2021/day/2) | ⭐<br>2:24:05 | ⭐<br>2:27:12 |
+| [Day 1](https://adventofcode.com/2021/day/1) | ⭐<br>6:56:47 | ⭐<br>7:15:45 |
 <!--- advent_readme_stars table --->
