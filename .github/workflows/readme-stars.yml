@@ -16,7 +16,7 @@ jobs:
       - uses: TomW1605/advent-readme-stars@add_time
         with:
           userId: 1200593
-          leaderboardId: 965021
+          #leaderboardId: 965021
           sessionCookie: ${{ secrets.AOC_SESSION }}
           showTime: True
           localTimezone: Australia/Perth
